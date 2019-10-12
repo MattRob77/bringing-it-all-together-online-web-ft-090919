@@ -12,6 +12,7 @@ class Dog
     sql = <<-SQL 
     CREATE TABLE IF NOT EXISTS dogs ( 
     id PRIMARY KEY, 
+    name text, 
     
     
     
