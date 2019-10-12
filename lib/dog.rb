@@ -72,7 +72,8 @@ class Dog
     FROM dogs 
     WHERE name = ? 
     AND breed = ? 
-    
+    LIMIT l
+    SQL
     
     
     
