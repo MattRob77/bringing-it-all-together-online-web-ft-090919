@@ -29,6 +29,8 @@ class Dog
     if id 
       update 
     else 
+      sql <<- SQL 
+      
       
   
   
