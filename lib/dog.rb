@@ -31,7 +31,7 @@ class Dog
     else 
       sql <<- SQL 
       INSERT INTO dogs(name, breed)
-      
+      VALUES(?, ?)
       
       
   
