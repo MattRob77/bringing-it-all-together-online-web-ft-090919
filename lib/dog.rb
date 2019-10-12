@@ -71,6 +71,7 @@ class Dog
     SELECT *
     FROM dogs 
     WHERE name = ? 
+    AND breed = ? 
     
     
     
