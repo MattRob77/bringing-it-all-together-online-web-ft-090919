@@ -75,6 +75,7 @@ class Dog
     LIMIT l
     SQL
     
+    dogs = 
     
     
 end 
