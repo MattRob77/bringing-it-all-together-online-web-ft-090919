@@ -57,7 +57,8 @@ class Dog
     sql <<-SQL 
     SELECT * 
     FROM dogs 
-    WHERE id = 
+    WHERE id = ? 
+    SQL 
     
     
     
