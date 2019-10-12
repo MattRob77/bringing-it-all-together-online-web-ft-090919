@@ -50,7 +50,8 @@ class Dog
     id = row [0]
     name = row [1]
     breed = row [2]
-    new(id: id, )
+    new(id: id, name: name, breed: breed)
+  end 
     
 end 
       
