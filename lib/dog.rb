@@ -47,6 +47,7 @@ class Dog
   end 
   
   def self.new_fromdb(row)
+    id = row [0]
     
     
 end 
