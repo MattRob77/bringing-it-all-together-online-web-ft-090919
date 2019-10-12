@@ -30,7 +30,8 @@ class Dog
       update 
     else 
       sql <<- SQL 
-      INSERT INTO dogs; 
+      INSERT INTO dogs(name, breed)
+      
       
       
   
