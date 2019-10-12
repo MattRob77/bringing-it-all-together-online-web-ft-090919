@@ -26,7 +26,9 @@ class Dog
   end 
   
   def save 
-    
+    if id 
+      update 
+      
   
   
     
